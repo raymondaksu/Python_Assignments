@@ -9,7 +9,6 @@ set_list = set(letter_list)
 for i in set_list:
     counter = letter_list.count(i)
     my_dict[i] = counter
-    count_of_letters.append(counter)
 
 print(my_dict)
 
